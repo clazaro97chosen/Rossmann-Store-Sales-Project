@@ -8,7 +8,7 @@ Abstract: Dirk Rossmann GmbH is Germany's second-largest drug store chain. Rossm
 Rossmann has three different product assortment levels called as basic, extra, and extended. Rossmann also has 4 different store types called a,b,c,and d. Rossmann should investigate whehter only greater assortment levels are the reason for increased sales of store b or if there are other factors like region of the store,
 or more specific reasons like product characteristics sold at each of these different store types.
 
-![alt test](average_sales_by_store_kind.png)
+![alt test](images/average_sales_by_store_kind.png)
 
 ## Promos in stores with less competition and less averege sales:
 Short Competition Distance likely indicates the stores are located in metropolitan regions and malls
@@ -16,5 +16,37 @@ Short Competition Distance likely indicates the stores are located in metropolit
 Frther Competition Distance may indicate semi-urban and rural regions. 
 Information aobut customer demographics, specific characteristics of promo days could help uncover some of the underlying factors at work. 
 
-![alt test](sales_competitiondistance_promo.png)
+![alt test](images/sales_competitiondistance_promo.png)
 
+
+Project Organization
+------------
+
+    ├── LICENSE
+    ├── README.md          <- The top-level README for developers using this project.
+    │
+    ├── models             <- Trained and serialized models
+    │
+    ├── notebooks          <- Jupyter notebooks.
+    │
+    ├── references         <- Data Information (sources, data dictionaries, manuals)
+    ├── tests              <- unit tests 
+    │
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
+    │                         generated with `pip freeze > requirements.txt`
+    │
+    ├── src                <- Source code for use in this project.
+    │   ├── __init__.py    <- Makes src a Python module
+    │   │
+    │   │
+    │   ├── modeling        <- Scripts to train models, prepare data or perform         |   |                      feature selection, and to train and predict on final     |   |                      test data         
+    │   │   ├── preprocess_data.py
+    │   │   ├── train_model.py
+    │   │   ├── evaluate_model.py
+    │ 
+  
+    
+    
+
+
+--------
